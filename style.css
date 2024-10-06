@@ -1,0 +1,85 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*, ::before, ::after{
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: poppins;
+    font-display: swap;
+    height: inherit;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.wrapper{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.34);
+    border: 2px solid rgb(0, 0, 175, 0,1);
+    flex-basis: 400px;
+    height: 450px;
+    padding: 20px 20px;
+    
+}
+.screen{
+    background-color: white;
+    font-size: 35px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.14);
+    padding: 20px;
+    overflow: auto;
+    text-align: right;
+    border-radius: 10px;
+    max-width: 360px;
+}
+.calc-btn-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+.clac-btn{
+    background-color: white;
+    border:  1px solid rgb(0, 0, 175, 0);
+    border-radius: 10px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.14);
+    font-size: inherit;
+    font-size: 24px;
+    height: 45px;
+    flex-basis: 20%;
+}
+.clac-btn:hover{
+    background-color: grey;
+    color: white;
+}
+.clac-btn:last-child{
+    background-color: rgb(35, 46, 255);
+    border:  1px solid rgb(0, 0, 175, 0);
+    border-radius: 10px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.14);
+    font-size: inherit;
+    font-size: 24px;
+    color: white;
+}
+.clac-btn:last-child:hover{
+    background-color: yellow;
+    color: inherit;
+}
+
+.clac-btn:active{
+    background-color: black;
+    color: white;
+}
+.double{
+    flex-basis: 47%;
+    color: white;
+    background-color: red;
+}
+.triple{
+    flex-basis: 73%;
+}
